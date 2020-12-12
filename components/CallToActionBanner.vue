@@ -12,8 +12,8 @@
                         Over 1000,000 retro games.
                     </p>
                     <p class="mt-5">
-                        <nuxt-link to="https://www.froala.com" class="btn btn-light"
-                            >Contact</nuxt-link
+                        <nuxt-link to="https://www.gamingboxtruck.com" class="btn btn-light"
+                            >Book game truck now</nuxt-link
                         >
                         <nuxt-link
                             to="https://www.froala.com"

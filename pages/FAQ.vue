@@ -12,11 +12,9 @@
                             class="fdb-icon"
                             src="/imgs/icons/github.svg"
                         />
-                        <h1>Design Blocks</h1>
+                        <h2>Frequently Asked Questions</h2>
                         <p class="lead">
-                            Far far away, behind the word mountains, far from
-                            the countries Vokalia and Consonantia, there live
-                            the blind texts.
+                            Here are some of our FAQ.
                         </p>
                     </div>
                     <div class="col-10 col-sm-6 m-auto col-md-4 pt-4 pt-md-0">
