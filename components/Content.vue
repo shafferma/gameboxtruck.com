@@ -3,19 +3,20 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-12 col-lg-6 col-xl-5">
-                    <h1>Design Blocks</h1>
+                    <h1>Weekday Special</h1>
                     <p class="lead mb-5">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
+                       1.5 hour party up to 16 guests
+                       1000's of games to choose from
+                       Includes multiple VR games 
+                       Perfect Birthday Party
                     </p>
 
-                    <p><strong>Works in every browser:</strong></p>
+                    <p><strong>We have every gaming platform:</strong></p>
                     <p class="h1 text-muted">
-                        <fa-icon :icon="['fab', 'chrome']" />
-                        <fa-icon :icon="['fab', 'safari']" />
-                        <fa-icon :icon="['fab', 'firefox']" />
-                        <fa-icon :icon="['fab', 'edge']" />
+                        <fa-icon :icon="['fab', 'xbox']" />
+                        <fa-icon :icon="['fab', 'playstation']" />
+                        <fa-icon :icon="['fab', 'nintendo']" />
+                        <fa-icon :icon="['fas', 'vr-cardboard']" />
                     </p>
                 </div>
                 <div

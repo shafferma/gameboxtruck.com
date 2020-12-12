@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
-                    <h1>Features</h1>
+                    <h1>GameBox Truck</h1>
                 </div>
             </div>
             <div class="row text-left mt-5">
@@ -17,10 +17,9 @@
                             />
                         </div>
                         <div class="col-9">
-                            <h3><strong>Feature One</strong></h3>
+                            <h3><strong>Video Game Parties</strong></h3>
                             <p>
-                                Even the all-powerful Pointing has no control
-                                about the blind texts
+                                Birthdays, graduations, game nights, school events, e-sports, churches, festival fairs, corporate events, etc.
                             </p>
                         </div>
                     </div>

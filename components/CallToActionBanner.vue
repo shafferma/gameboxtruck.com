@@ -6,19 +6,19 @@
         <div class="container align-items-center justify-content-center d-flex">
             <div class="row align-items-center text-left">
                 <div class="col-12 col-sm-10 col-md-8 col-lg-8">
-                    <h1>Froala Design Blocks is build on Boostrap Framework</h1>
+                    <h1>The ultimate gaming experience!</h1>
                     <p class="lead">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there.
+                        The largest mobile video game collection in the world to your front door.
+                        Over 1000,000 retro games.
                     </p>
                     <p class="mt-5">
-                        <a href="https://www.froala.com" class="btn btn-light"
-                            >Call to Action</a
+                        <nuxt-link to="https://www.froala.com" class="btn btn-light"
+                            >Contact</nuxt-link
                         >
-                        <a
-                            href="https://www.froala.com"
+                        <nuxt-link
+                            to="https://www.froala.com"
                             class="btn btn-dark ml-4"
-                            >Button</a
+                            >Frequently Asked Questions</nuxt-link
                         >
                     </p>
                 </div>

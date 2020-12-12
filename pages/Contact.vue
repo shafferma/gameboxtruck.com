@@ -23,7 +23,7 @@
             <div class="row-100"></div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-5">
-                    <h2>Call or email</h2>
+                    <!-- <h2>Call or email</h2>
                     <p class="text-large">
                         Support, Sales, and Account Management services are
                         currently available in English
@@ -39,9 +39,9 @@
                     <p>
                         Our technical support is available by phone or email
                         from 11am to 11pm BST, Monday through Friday.
-                    </p>
+                    </p> -->
 
-                    <p class="h3 mt-4 mt-lg-5">
+                    <!-- <p class="h3 mt-4 mt-lg-5">
                         <strong>Sales</strong>
                     </p>
                     <p>+800 3005 4300</p>
@@ -51,13 +51,13 @@
                     <p>
                         Our technical support is available by phone or email
                         from 11am to 11pm BST, Monday through Friday.
-                    </p>
+                    </p> -->
 
                     <p class="h3 mt-4 mt-lg-5">
                         <strong>General inquiries</strong>
                     </p>
                     <p>
-                        <a href="https://www.froala.com">hello@website.com</a>
+                        <nuxt-link to="https://www.gameboxtruck.com">GameBoxTruck</nuxt-link>
                     </p>
                 </div>
 
@@ -119,14 +119,14 @@
                         </div>
 
                         <div class="row mt-4">
-                            <div class="col">
+                            <!-- <div class="col">
                                 <select class="form-control" required="">
                                     <option value="">Select Department</option>
                                     <option value="1">Support</option>
                                     <option value="2">Sales</option>
                                     <option value="3">Accounting</option>
                                 </select>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row mt-4">
                             <div class="col">
