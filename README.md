@@ -1,5 +1,10 @@
 # gameboxtruck
 
+- Customize Content/Language
+- Customize Styling/Colors
+- Get contact form working
+- Swap out images
+
 ## Build Setup
 
 ```bash
