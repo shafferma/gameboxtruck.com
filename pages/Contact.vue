@@ -23,35 +23,6 @@
             <div class="row-100"></div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-5">
-                    <!-- <h2>Call or email</h2>
-                    <p class="text-large">
-                        Support, Sales, and Account Management services are
-                        currently available in English
-                    </p>
-
-                    <p class="h3 mt-4 mt-lg-5">
-                        <strong>Support</strong>
-                    </p>
-                    <p>+800 3005 4300</p>
-                    <p>
-                        <a href="https://www.froala.com">Contact Support</a>
-                    </p>
-                    <p>
-                        Our technical support is available by phone or email
-                        from 11am to 11pm BST, Monday through Friday.
-                    </p> -->
-
-                    <!-- <p class="h3 mt-4 mt-lg-5">
-                        <strong>Sales</strong>
-                    </p>
-                    <p>+800 3005 4300</p>
-                    <p>
-                        <a href="https://www.froala.com">Contact Sales</a>
-                    </p>
-                    <p>
-                        Our technical support is available by phone or email
-                        from 11am to 11pm BST, Monday through Friday.
-                    </p> -->
 
                     <p class="h3 mt-4 mt-lg-5">
                         <strong>General inquiries</strong>
