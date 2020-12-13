@@ -15,10 +15,11 @@
                     <p class="h1 text-muted">
                         <fa-icon :icon="['fab', 'xbox']" />
                         <fa-icon :icon="['fab', 'playstation']" />
-                        <fa-icon :icon="['fab', 'nintendo']" />
+                        <!-- <fa-icon :icon="['fas', 'nintendo']" /> -->
                         <fa-icon :icon="['fas', 'vr-cardboard']" />
                     </p>
                 </div>
+
                 <div
                     class="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0"
                 >

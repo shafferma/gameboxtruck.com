@@ -117,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
+                <!-- <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
                     <div class="row">
                         <div class="col-3">
                             <img
@@ -125,8 +125,8 @@
                                 class="img-fluid"
                                 src="/imgs/icons/cloud.svg"
                             />
-                        </div>
-                        <div class="col-9">
+                        </div> -->
+                        <!-- <div class="col-9">
                             <h3><strong>Feature Seven</strong></h3>
                             <p>
                                 Duden flows by their place far far away, behind
@@ -150,7 +150,7 @@
                                 Separated they live in Bookmarksgrove right at
                                 the coast
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
