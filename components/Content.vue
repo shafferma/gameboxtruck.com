@@ -26,7 +26,7 @@
                     <img
                         alt="image"
                         class="img-fluid"
-                        src="/imgs/draws/browsers.svg"
+                        src="/imgs/photos/party1.jpg"
                     />
                 </div>
             </div>
