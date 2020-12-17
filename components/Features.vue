@@ -35,7 +35,10 @@
         <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
           <div class="row">
             <div class="col-3">
-              <fa-icon class="feature-icon" :icon="['fas', 'chalkboard-teacher']" />
+              <fa-icon
+                class="feature-icon"
+                :icon="['fas', 'chalkboard-teacher']"
+              />
             </div>
             <div class="col-9">
               <h3><strong>Educational</strong></h3>
@@ -49,7 +52,7 @@
         <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
           <div class="row">
             <div class="col-3">
-                <fa-icon class="feature-icon" :icon="['fas', 'trophy']" />
+              <fa-icon class="feature-icon" :icon="['fas', 'trophy']" />
             </div>
             <div class="col-9">
               <h3><strong>E-sports Tournaments</strong></h3>
@@ -66,7 +69,7 @@
         <div class="col-12 col-sm-6 col-lg-3">
           <div class="row">
             <div class="col-3">
-             <fa-icon class="feature-icon" :icon="['fas', 'cloud-sun']" />
+              <fa-icon class="feature-icon" :icon="['fas', 'cloud-sun']" />
             </div>
             <div class="col-9">
               <h3><strong>Rain or Shine</strong></h3>
@@ -77,7 +80,7 @@
         <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
           <div class="row">
             <div class="col-3">
-                 <fa-icon class="feature-icon" :icon="['fas', 'users']" />
+              <fa-icon class="feature-icon" :icon="['fas', 'users']" />
             </div>
             <div class="col-9">
               <h3><strong>Player Count</strong></h3>
@@ -93,7 +96,8 @@
             <div class="col-9">
               <h3><strong>Additional Games</strong></h3>
               <p>
-                We facilitate outdoor yard games upon request: Cornhole, Ladder Ball, KanJam, Jenga.
+                We facilitate outdoor yard games upon request: Cornhole, Ladder
+                Ball, KanJam, Jenga.
               </p>
             </div>
           </div>
@@ -101,11 +105,11 @@
         <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
           <div class="row">
             <div class="col-3">
-                <fa-icon class="feature-icon" :icon="['fas', 'users']" />
+              <fa-icon class="feature-icon" :icon="['fas', 'users']" />
             </div>
             <div class="col-9">
               <h3><strong>Feature</strong></h3>
-              <p>Separated they live in Bookmarksgrove right at the coast</p>
+              <p>Another cool feature</p>
             </div>
           </div>
         </div>
@@ -115,34 +119,33 @@
 </template>
 
 <style scoped>
-.feature-icon{
-    font-size: 36px;
+.feature-icon {
+  font-size: 36px;
 }
 
 .fa-gift {
-    color:rgb(167, 11, 11);
+  color: rgb(167, 11, 11);
 }
-.fa-layer-group{
-    color: rgb(143, 91, 91);
+.fa-layer-group {
+  color: rgb(143, 91, 91);
 }
 
 .fa-users {
-    color: rgb(112, 112, 209);
+  color: rgb(112, 112, 209);
 }
 
 .fa-trophy {
-    color: gold;
+  color: gold;
 }
 .fa-cloud-sun {
-    color: linear-gradient(90deg, rgba(24,161,194,1) 33%, rgba(255,214,0,1) 100%);
+  color: rgba(24, 161, 194, 1);
 }
 
-.fa-chalkboard-teacher{
-    color:yellowgreen
+.fa-chalkboard-teacher {
+  color: yellowgreen;
 }
 
-.fa-plus{
-    color:rgb(231, 130, 62);
+.fa-plus {
+  color: rgb(231, 130, 62);
 }
-
 </style>

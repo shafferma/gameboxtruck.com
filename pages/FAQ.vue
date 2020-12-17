@@ -7,11 +7,6 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 col-lg-5">
-                        <img
-                            alt="image"
-                            class="fdb-icon"
-                            src="/imgs/icons/github.svg"
-                        />
                         <h2>Frequently Asked Questions</h2>
                         <p class="lead">
                             Here are some of our FAQ.

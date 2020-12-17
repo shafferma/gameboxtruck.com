@@ -10,7 +10,7 @@
                     <div class="col-8">
                         <h1>Contact Us</h1>
                         <p class="lead">
-                         If you have any questions, feel free to call/email
+                         Have questions, feel free to call/email
                         </p>
                     </div>
                 </div>
