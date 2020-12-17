@@ -7,6 +7,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 col-lg-5">
+						  <fa-icon class="" :icon="['far', 'question-circle']" />
                         <h2>Frequently Asked Questions</h2>
                         <p class="lead">
                             Here are some of our FAQ.
@@ -89,5 +90,4 @@ export default {
 </script>
 
 <style lang="css" scoped>
-
 </style>

@@ -30,16 +30,30 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/fontawesome',
+    '@nuxtjs/google-fonts',
   ],
 
   fontawesome: {
     icons: {
       solid: true,
-      brands: true
+      brands: true,
+      regular: true,
     },
     component: 'FaIcon',
     suffix: false
   },
+
+  families: {
+    'Varela+Round': true,
+    'Raleway': true,
+    // 'Josefin+Sans': true,
+    // Lato: [100, 300],
+    // Raleway: {
+    //   wght: [100, 400],
+    //   ital: [100]
+    // },
+  },
+  
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

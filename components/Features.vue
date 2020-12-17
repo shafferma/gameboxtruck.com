@@ -88,17 +88,15 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-clas3 pt-3 pt-lg-0">
+          <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
           <div class="row">
             <div class="col-3">
               <fa-icon class="feature-icon" :icon="['fas', 'plus']" />
             </div>
             <div class="col-9">
               <h3><strong>Additional Games</strong></h3>
-              <p>
-                We facilitate outdoor yard games upon request: Cornhole, Ladder
-                Ball, KanJam, Jenga.
-              </p>
+              <p> We facilitate outdoor yard games upon request: Cornhole, Ladder
+                Ball, KanJam, Jenga.</p>
             </div>
           </div>
         </div>
@@ -138,7 +136,7 @@
   color: gold;
 }
 .fa-cloud-sun {
-  color: rgba(24, 161, 194, 1);
+  color: rgba(24, 161, 194, 1)
 }
 
 .fa-chalkboard-teacher {

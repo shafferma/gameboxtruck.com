@@ -3,7 +3,7 @@
         <div class="container align-items-center justify-content-center d-flex">
             <div class="row align-items-center text-left">
                 <div class="col-12 col-sm-10 col-md-8 col-lg-8">
-                    <h1>Bring the greatest games and platforms to your front door.</h1>
+                    <h1 class="opener">Bring the greatest games and platforms to your front door.</h1>
                     <p class="lead-1">
                        Thousands of games across old and newly-released consoles; including the latest VR headsets!
                     </p>
@@ -24,6 +24,14 @@
 </template>
 
 <style scoped>
+
+.h1 {
+     font-family: 'Varela Round';
+}
+
+.lead-1{
+    font-family: 'Raleway';
+}
 .banner-img {
     /* background: url('~assets/smallSize.png'); */
     background-repeat: no-repeat;

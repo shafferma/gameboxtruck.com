@@ -10,7 +10,7 @@
                     <div class="col-8">
                         <h1>Contact Us</h1>
                         <p class="lead">
-                         Have questions, feel free to call/email
+                         Questions, booking, and all other inquiries contact below.
                         </p>
                     </div>
                 </div>
@@ -23,10 +23,10 @@
                 <div class="col-12 col-md-6 col-lg-5">
 
                     <p class="h3 mt-4 mt-lg-5">
-                        <strong>General inquiries</strong>
+                        <strong>General Inquiries</strong>
                     </p>
                     <p>
-                        <nuxt-link to="https://www.gameboxtruck.com">GameBoxTruck</nuxt-link>
+                        <nuxt-link to="email">gamebox@gameboxtruck.com</nuxt-link>
                     </p>
                      <p class="h3 mt-4 mt-lg-5">
                         <strong>Call Us Today</strong>
