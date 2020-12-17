@@ -10,9 +10,7 @@
                     <div class="col-8">
                         <h1>Contact Us</h1>
                         <p class="lead">
-                            Far far away, behind the word mountains, far from
-                            the countries Vokalia and Consonantia, there live
-                            the blind texts.
+                         If you have any questions, feel free to call/email
                         </p>
                     </div>
                 </div>
@@ -29,6 +27,12 @@
                     </p>
                     <p>
                         <nuxt-link to="https://www.gameboxtruck.com">GameBoxTruck</nuxt-link>
+                    </p>
+                     <p class="h3 mt-4 mt-lg-5">
+                        <strong>Call Us Today</strong>
+                    </p>
+                     <p class="h5 ">
+                        833-GAME-JAM
                     </p>
                 </div>
 

@@ -1,159 +1,148 @@
 <template>
-    <section class="fdb-block">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1>GameBox Truck</h1>
-                </div>
-            </div>
-            <div class="row text-left mt-5">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/layers.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Video Game Parties</strong></h3>
-                            <p>
-                                Birthdays, graduations, game nights, school events, e-sports, churches, festival fairs, corporate events, etc.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/layout.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Feature Two</strong></h3>
-                            <p>
-                                Separated they live in Bookmarksgrove right at
-                                the coast
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/life-buoy.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Feature Three</strong></h3>
-                            <p>
-                                A small river named Duden flows by their place
-                                and supplies it
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/map-pin.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Feature Four</strong></h3>
-                            <p>
-                                Far far away, behind the word mountains, far
-                                from the countries
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row text-left pt-3 pt-lg-5">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/monitor.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Feature Five</strong></h3>
-                            <p>
-                                On her way she met a copy. The copy warned the
-                                Little Blind Text.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/package.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Feature Six</strong></h3>
-                            <p>
-                                Far far away, behind the word mountains, far
-                                from the countries
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/cloud.svg"
-                            />
-                        </div> -->
-                        <!-- <div class="col-9">
-                            <h3><strong>Feature Seven</strong></h3>
-                            <p>
-                                Duden flows by their place far far away, behind
-                                the word mountains.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img
-                                alt="image"
-                                class="img-fluid"
-                                src="/imgs/icons/gift.svg"
-                            />
-                        </div>
-                        <div class="col-9">
-                            <h3><strong>Feature Eight</strong></h3>
-                            <p>
-                                Separated they live in Bookmarksgrove right at
-                                the coast
-                            </p>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
+  <section class="fdb-block">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1>GameBox Truck Features</h1>
         </div>
-    </section>
+      </div>
+      <div class="row text-left mt-5">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="row">
+            <div class="col-3">
+              <fa-icon class="feature-icon" :icon="['fas', 'gift']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Party Type</strong></h3>
+              <p>
+                Birthdays, graduations, game-nights, back-yard shindig, holiday
+                parties, the list goes on.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
+          <div class="row">
+            <div class="col-3">
+              <fa-icon class="feature-icon" :icon="['fas', 'layer-group']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Larger Entertainment</strong></h3>
+              <p>Church, Corporate, Neighborhood, and Youth group events.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
+          <div class="row">
+            <div class="col-3">
+              <fa-icon class="feature-icon" :icon="['fas', 'chalkboard-teacher']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Educational</strong></h3>
+              <p>
+                School events, fund-raisers, class specific VR (ex.Art class w/
+                Tilt Brush, Music class w/ Beat Saber, VR Boxing, Fitness etc.)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
+          <div class="row">
+            <div class="col-3">
+                <fa-icon class="feature-icon" :icon="['fas', 'trophy']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>E-sports Tournaments</strong></h3>
+              <p>
+                Beat Saber, Smash Bros, Fortnight, Project Cars, Street Fighter,
+                Mortal Combat
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-left pt-3 pt-lg-5">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="row">
+            <div class="col-3">
+             <fa-icon class="feature-icon" :icon="['fas', 'cloud-sun']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Rain or Shine</strong></h3>
+              <p>35ft. of climate controlled video gaming space.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
+          <div class="row">
+            <div class="col-3">
+                 <fa-icon class="feature-icon" :icon="['fas', 'users']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Player Count</strong></h3>
+              <p>2-24 players at once!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-clas3 pt-3 pt-lg-0">
+          <div class="row">
+            <div class="col-3">
+              <fa-icon class="feature-icon" :icon="['fas', 'plus']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Additional Games</strong></h3>
+              <p>
+                We facilitate outdoor yard games upon request: Cornhole, Ladder Ball, KanJam, Jenga.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
+          <div class="row">
+            <div class="col-3">
+                <fa-icon class="feature-icon" :icon="['fas', 'users']" />
+            </div>
+            <div class="col-9">
+              <h3><strong>Feature</strong></h3>
+              <p>Separated they live in Bookmarksgrove right at the coast</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
+
+<style scoped>
+.feature-icon{
+    font-size: 36px;
+}
+
+.fa-gift {
+    color:rgb(167, 11, 11);
+}
+.fa-layer-group{
+    color: rgb(143, 91, 91);
+}
+
+.fa-users {
+    color: rgb(112, 112, 209);
+}
+
+.fa-trophy {
+    color: gold;
+}
+.fa-cloud-sun {
+    color: linear-gradient(90deg, rgba(24,161,194,1) 33%, rgba(255,214,0,1) 100%);
+}
+
+.fa-chalkboard-teacher{
+    color:yellowgreen
+}
+
+.fa-plus{
+    color:rgb(231, 130, 62);
+}
+
+</style>
