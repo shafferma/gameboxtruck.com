@@ -53,7 +53,7 @@ const handler = async (event) => {
   const emailToSend = {
     to: process.env.CONTACT_EMAIL,
     from: process.env.FROM_EMAIL,
-    subject: `gameboxtruck.com | ${body.name} sent a message from`,
+    subject: `gameboxtruck.com | ${body.name} sent a message`,
     fromname: 'body.name',
     replyto: 'body.email',
     text: `${body.message} --- PHONE: ${body.phone}`,
