@@ -1,69 +1,73 @@
 <template>
   <div class="col-12 col-md-6 ml-auto">
-    <h2>Drop us a line</h2>
-    <form>
-      <div class="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name" />
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" />
-        </div>
-      </div>
+      <template v-if="loading">
+          ... sending message
+      </template>
 
-      <div class="row mt-4">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Company Name" />
-        </div>
-      </div>
+      <template v-else-if="success">
+          Message sent successfully.
+      </template>
 
-      <div class="row mt-4">
-        <div class="col">
-          <input type="email" class="form-control" placeholder="Email" />
+    <template v-else>
+        <p v-if="error">
+            There was an error sending the message. If the problem continues please try contacting us by phone.
+        </p>
+      <h2>Drop us a line</h2>
+      <form>
+        <div class="row mt-4">
+          <div class="col">
+            <input
+              v-model="form.name"
+              type="text"
+              class="form-control"
+              placeholder="Name"
+            />
+          </div>
         </div>
-      </div>
 
-      <div class="row mt-4">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Phone" />
+        <div class="row mt-4">
+          <div class="col">
+            <input
+              v-model="form.email"
+              type="email"
+              class="form-control"
+              placeholder="Email"
+            />
+          </div>
+          <div class="col">
+            <input
+              v-model="form.phone"
+              type="text"
+              class="form-control"
+              placeholder="Phone"
+            />
+          </div>
         </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Country" />
-        </div>
-      </div>
 
-      <div class="row mt-4">
-        <!-- <div class="col">
-                                <select class="form-control" required="">
-                                    <option value="">Select Department</option>
-                                    <option value="1">Support</option>
-                                    <option value="2">Sales</option>
-                                    <option value="3">Accounting</option>
-                                </select>
-                            </div> -->
-      </div>
-      <div class="row mt-4">
-        <div class="col">
-          <textarea
-            class="form-control"
-            name="message"
-            rows="5"
-            placeholder="How can we help?"
-          ></textarea>
+        <div class="row mt-4">
+          <div class="col">
+            <textarea
+              v-model="form.message"
+              class="form-control"
+              name="message"
+              rows="5"
+              placeholder="How can we help?"
+            ></textarea>
+          </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col">
-          <button
-            @click.prevent="submitForm"
-            type="submit"
-            class="btn btn-primary"
-          >
-            Submit
-          </button>
+        <div class="row mt-4">
+          <div class="col">
+            <button
+              @click.prevent="submitForm"
+              type="submit"
+              class="btn btn-primary"
+            >
+              Submit
+            </button>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </template>
   </div>
 </template>
 
@@ -71,22 +75,33 @@
 import axios from 'axios'
 
 export default {
-   
-   methods: {
-        async submitForm() {
-            try {
+  data: () => ({
+    loading: false,
+    error: false,
+    success: false,
+    form: {
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+    },
+  }),
+  methods: {
+    async submitForm() {
+      this.loading = true
+      this.error = false
+      this.success = false
 
-                const response = await axios.post('/.netlify/functions/contact', {
-                    name: 'name',
-                        email: 'test@gmail.com',
-                        details: "gimmie dem deets babe"
-                })
-                console.info({response})
-            } catch (error) {
-                console.info({error})
-            }
-        }
-    }
+      try {
+        await axios.post('/.netlify/functions/contact', this.form)
+        this.success = true
+      } catch (error) {
+        this.error = true
+      } finally {
+        this.loading = false
+      }
+    },
+  },
 }
 </script>
 
